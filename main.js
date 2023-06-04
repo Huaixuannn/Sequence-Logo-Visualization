@@ -63,7 +63,7 @@ function generateLogo() {
     // Check if the length of each line is different from the first line
     for (var i = 1; i < lines.length; i++) {
         if (lines[i].length !== lineLength) {
-            displayErrorMessage("*Warning: The length of each sequence must be the same. The sequence of " + (i + 1) + " rows is not the same length");
+            displayErrorMessage("*Warning: The length of each sequence must be the same. The sequences in row " + (i + 1) + " have different lengths.");
             return;
         }
         else{
