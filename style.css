@@ -1,0 +1,170 @@
+textarea {
+    font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    border-color: rgb(249, 208, 154);
+    border-radius: 10px; 
+    margin-right: 20px;
+    font-size: 15px;
+    width: 550px;
+    height: 130px;
+    /* border: 500px rgb(255, 195, 117); */
+}
+
+
+h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(250, 237, 215);
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: rgba(52, 52, 52, 0.868);
+    font-weight: bold;
+}
+
+.w3-bar{
+    background-color: rgb(250, 237, 215);
+    
+}
+
+.slidecontainer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    display: inline-block;
+}
+
+
+.w3-container-sequence{
+    display: inline-block;
+    margin: 30px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(79, 79, 79);
+}
+
+.notice{
+    display: inline-block;
+    margin-left: 30px;
+    padding-left: 10px;
+    /* margin-top: 40px; */
+    /* position: absolute; */
+    /* padding-bottom: 20px; */
+}
+
+.btn{
+    margin: 5px;
+    
+}
+
+#generateBtn{
+    background-color: rgb(254, 232, 198);
+    border: 2px solid rgb(255, 243, 228);
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(251, 185, 92);
+    text-align: center;
+    margin: 30px;
+    cursor: pointer;
+    /* box-shadow: 0 0 5px 0 rgba(141, 141, 141, 0.2), 0 5px 5px 0 rgba(141, 141, 141, 0.2); */
+}
+
+#p-downloadFormat{
+    display: inline-block;
+    margin-left: 20px;
+    opacity: 0;
+}
+
+#downloadBtn{
+    background-color: rgb(254, 232, 198);
+    border: 2px solid rgb(255, 243, 228);
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(251, 185, 92);
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+    /* display: none; */
+    /* box-shadow: 0 0 5px 0 rgba(141, 141, 141, 0.2), 0 5px 5px 0 rgba(141, 141, 141, 0.2); */
+    opacity: 0;
+}
+
+#downloadFormat{
+    opacity: 0;
+
+}
+
+#errorMessage{
+    margin: 20px;
+    color: rgb(210, 0, 0);
+    font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    font-size: 18px;
+}
+
+
+.imageSize{
+    margin-left: 30px;
+}
+
+
+.w3-container-height{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.w3-container-width{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#info_canvas_h, #info_canvas_w{
+    margin-top: -5px;
+}
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    /* border-radius: 8px; */
+    height: 8px;
+    width: 400px;
+    /* outline: none; */
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: rgb(254, 232, 198);
+    height: 0.5rem;
+}
+
+input[type="range"]::-webkit-slider-container{
+    height: 20px;
+    margin-top: -6px;
+    overflow: hidden;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-top: -6px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #ffbb94;
+    border: 1px solid transparent;
+    border-image: linear-gradient(#ffbb94,#ffbb94) 0 fill / 8 20 8 0 / 0px 0px 0 2000px;
+}
+
+canvas{
+    margin: 30px;
+}
