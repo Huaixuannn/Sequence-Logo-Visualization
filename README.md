@@ -1,4 +1,3 @@
-# Sequence-Logo-Visualization  
 # Web link  
 https://huaixuannn.github.io/Sequence-Logo-Visualization/  
 # Description of work  
